@@ -358,7 +358,40 @@ dentro de la carpeta _middlewares_ creamos un nuevo archivo `validator.middlewar
 
 dentro de la carpeta _schemas_ creamos un nuevo archivo `task.schema.js`
 
+# CONFIGURACION DEL LADO DEL CLIENTE
 
-# CONFIGURACION DEL CLIENTE
+## Para commenzar
 
-...
+`npm create vite`
+
+`cd client`
+
+`npm install`
+
+`npm run dev`
+
+**_Abrimos una consola para el `frontend`_**
+
+mientras que una lavanta el puerto `http://localhost:5173/`
+
+**_Abrimos otra consola para el `backend`_**
+
+el otro levanta el puerto `http://localhost:3000/`
+
+# INSTALAMOS CORS
+
+### Esto se hace para evitarce el error de cors(leer mas al respecto)
+
+`npm install cors` y lo importamos en `app.js`
+
+
+
+
+#
+
+# CONTINUAMOS EN EL README DEL LADO DEL CLIENTE
+
+#
+`npm install cors`
+
+# COMPLETO

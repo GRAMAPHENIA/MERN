@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #1c1f24;
+  color: white;
+}
+
+/* Estiliza el scroll */
+::-webkit-scrollbar {
+  width: 0.9em;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(29, 34, 42);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 100vh;
+  background: rgb(32, 46, 71);
+}
+/* Estiliza el scroll */
+
+/* Estiliza el campo de fecha */
+.custom-date {
+  position: relative;
+  width: 200px;
+}
+
+input[type="date"] {
+  width: 100%;
+  color: #6c7584;
+  background-color: rgb(39 39 42);
+  padding: 5px;
+  border: none;
+}
+
+/* Estiliza el campo de fecha */
+
+/* Estilo adicional para el icono (puedes personalizarlo ? ) */
+/* .custom-icon {
+  font-size: 1.2em;
+  color: #444658;
+} */
+
+/* Invierte el color del icono */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+/* Invierte el color del icono */
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: #1f2c76;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* Botones */
+.btn-editar {
+  border: 2px solid;
+  border-color: rgba(136, 151, 170, 0.516);
+  border-radius: 10px;
+  background: #5471af4a;
+  padding: 0.5em;
+}
+/* Botones */
